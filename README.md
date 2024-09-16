@@ -51,5 +51,5 @@ This repository is open-sourced under the [MIT License](LICENSE). Feel free to e
 
 If you have any questions, suggestions, or want to collaborate, feel free to reach out!
 
-- **Email**: [YourEmail@example.com](mailto:Vinee3700@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/vineeth-kumar-b1485b2a0/)
+- **Email**: [Vinee3700@gmail.com](mailto:Vinee3700@gmail.com)
+- **LinkedIn**: [https://www.linkedin.com/in/vineeth-kumar-b1485b2a0/](https://www.linkedin.com/in/vineeth-kumar-b1485b2a0/)
