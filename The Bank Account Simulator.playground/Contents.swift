@@ -179,21 +179,3 @@ struct BankAccount {
 
 var bankAccount = BankAccount()
 print(bankAccount.debitBalanceInfo)
-
-bankAccount.debitDeposit(100)
-
-bankAccount.debitWithdraw(20)
-
-bankAccount.debitWithdraw(81)
-
-bankAccount.creditBalanceInfo
-
-bankAccount.creditWithdraw(101)
-
-bankAccount.creditWithdraw(100)
-
-bankAccount.creditDeposit(50)
-
-bankAccount.creditDeposit(50)
-
-
