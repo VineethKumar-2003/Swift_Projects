@@ -9,8 +9,14 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @AppStorage("isLoggedIn") private var isLoggedIn = false
+    
     var body: some View {
-        MainScreen()
+        if isLoggedIn {
+            MainScreen()
+        } else {
+            SplashView()
+        }
     }
 }
        

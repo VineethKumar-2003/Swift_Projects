@@ -8,6 +8,8 @@
 import SwiftUI
 import SwiftData
 import FirebaseCore
+import GoogleSignIn
+import FirebaseAuth
 
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
@@ -20,6 +22,8 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct Swift_AlertApp: App {
     // register app delegate for Firebase Setup
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
+    @State private var isLoggedIn = Auth.auth().currentUser != nil
     
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
@@ -36,7 +40,11 @@ struct Swift_AlertApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedIn {
+                MainScreen()
+            } else {
+                SplashView(isLoggedIn: $isLoggedIn)
+            }
         }
         .modelContainer(sharedModelContainer)
     }
