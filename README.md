@@ -43,7 +43,7 @@ If you're interested in learning Swift or contributing, here are some resources:
 
 ## License
 
-This repository is open-sourced under the [MIT License](LICENSE). Feel free to explore, fork, and contribute!
+This repository is open-sourced under the [Apache 2.0 License](LICENSE). Feel free to explore, fork, and contribute!
 
 ---
 
