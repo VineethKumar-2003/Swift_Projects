@@ -70,10 +70,10 @@ xcodebuild -scheme RecipeRemixer
 ```
 
 ## Usage Guide
-**1\. Login/Register** - Use Google or Email Authentication.
-**2\. Enter the Given Fields** - Input available ingredients.
-**3\. Generate Recipes** - AI suggests recipes using Gemini 2.0 Flash.
-**4\. View and Save Recipes** - Save favorite recipes for later.
+**1. Login/Register** - Use Google or Email Authentication.
+**2. Enter the Given Fields** - Input available ingredients.
+**3. Generate Recipes** - AI suggests recipes using Gemini 2.0 Flash.
+**4. View and Save Recipes** - Save favorite recipes for later.
 
 ## API Usage (Gemini 2.0 Flash)
 The app sends a request to Gemini AI with a structured JSON payload:
@@ -99,11 +99,11 @@ The app sends a request to Gemini AI with a structured JSON payload:
 - Chatbot for personlized cooking guidance.
 
 ## Contributing
-1\. Fork the repository.
-2\. Create a feature branch: `git checkout -b feature-name`.
-3\. Commit changes: `git commit -m 'Added new feature'`.
-4\. Push to the branch: `git push origin feature-name`.
-5\. Open a pull request.
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature-name`.
+3. Commit changes: `git commit -m 'Added new feature'`.
+4. Push to the branch: `git push origin feature-name`.
+5. Open a pull request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
