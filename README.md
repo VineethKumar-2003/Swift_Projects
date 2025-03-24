@@ -74,7 +74,7 @@ Swift Alert is a safety-focused iOS application designed to provide emergency ac
   - **Technologies**: Swift, SwiftUI, Firebase, Firestore...
   - **Status**: Ongoing
  
-  [View Project](https://github.com/VineethKumar-2003/Swift_Projects/tree/main/Swift%20Alert
+  [View Project](https://github.com/VineethKumar-2003/Swift_Projects/tree/main/Swift%20Alert)
 
 ## How to Use This Repository
 
