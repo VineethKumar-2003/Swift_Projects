@@ -70,10 +70,10 @@ xcodebuild -scheme RecipeRemixer
 ```
 
 ## Usage Guide
-**1. Login/Register** - Use Google or Email Authentication.
-**2. Enter the Given Fields** - Input available ingredients.
-**3. Generate Recipes** - AI suggests recipes using Gemini 2.0 Flash.
-**4. View and Save Recipes** - Save favorite recipes for later.
+1. Login/Register - Use Google or Email Authentication.
+2. Enter the Given Fields - Input available ingredients.
+3. Generate Recipes - AI suggests recipes using Gemini 2.0 Flash.
+4. View and Save Recipes - Save favorite recipes for later.
 
 ## API Usage (Gemini 2.0 Flash)
 The app sends a request to Gemini AI with a structured JSON payload:
