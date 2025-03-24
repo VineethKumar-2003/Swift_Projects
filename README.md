@@ -22,6 +22,58 @@ A **console-based banking application** where users can create accounts, check t
 
 [View Project](https://github.com/FocusedPoetry10/Swift_Projects/tree/main/The%20Bank%20Account%20Simulator.playground)
 
+### 2. Recipe Generator using Gemini 2.0 Flash
+Recipe Remixer is a smart recipe generator that leverages Google Gemini 2.0 Flash to provide AI-powered recipe suggestions based on user-inputted ingredients. This app aims to help users create delicious meals with what they have at like at that moment, reducing food waste and encouraging creativity in the kitchen.
+
+- **Features**:
+      - 🧠 AI-Powered Recipe Generation – Uses Gemini 2.0 Flash for intelligent recipe suggestions.
+
+      - 🍽️ Ingredient-Based Suggestions – Enter available ingredients and get relevant recipes.
+
+      - 📖 Step-by-Step Instructions – Clear and concise cooking directions.
+
+      - 🛠️ Dietary Customization – Filters for vegetarian, non-vegetarian,and mixed dietary preferences.
+
+      - 💾 Save Favorite Recipes – Bookmark and organize favorite recipes.
+
+      - 📱 Responsive UI – Mobile-friendly and easy to navigate.
+
+      - 🔥 Firebase Integration – Stores user preferences and saved recipes securely.
+
+- **Technologies**: Swift, SwiftUI, Firebase, Gemini 2.0, Hono.js, Cloudflare Workers
+- **Status**: Complete
+
+[View Project](https://github.com/VineethKumar-2003/Swift_Projects/tree/main/Recipe%20Generator%20using%20Gemini%202.0%20Flash)
+
+### 3. Swift Alert
+Swift Alert is a safety-focused iOS application designed to provide emergency actions, safety tips, and helpline contacts. Built using SwiftUI, this app integrates voice activation, location tracking, and drop detection to enhance user security. The app is specifically designed for situations where immediate assistance is required, ensuring a minimalist yet highly functional UI for ease of use.
+
+- **Features**:
+      - 🔊 Voice Activation – Activate emergency mode using voice commands.
+
+      - 📍 Location Tracking – Sends real-time location updates to emergency contacts.
+
+      - 🚨 Drop Detection & Inactivity Lockdown –
+
+            - Detects sudden phone drops and inactivity.
+
+            - Locks the phone after 10 seconds if no interaction is detected.
+
+            - Prevents shutdown or forced exit after lockdown.
+
+            - Requires a strong authentication method to unlock.
+
+      - 🆘 Quick Emergency Actions – Call emergency contacts or send SOS alerts instantly.
+
+      - 📖 Safety Tips & Guidelines – Provides situational safety guidance.
+
+      - 🔐 Secure Data Handling – Uses Firebase for secure data storage and user authentication.
+
+  - **Technologies**: Swift, SwiftUI, Firebase, Firestore...
+  - **Status**: Ongoing
+ 
+  [View Project](https://github.com/VineethKumar-2003/Swift_Projects/tree/main/Swift%20Alert
+
 ## How to Use This Repository
 
 Each project is placed in its own folder, with a detailed `README.md` inside that explains the project, setup instructions, and how to run it.
