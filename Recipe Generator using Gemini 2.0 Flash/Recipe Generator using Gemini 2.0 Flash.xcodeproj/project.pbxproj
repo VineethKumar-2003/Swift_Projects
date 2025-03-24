@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C88BDC472D8EF1DD004C1957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88BDC2C2D8EF1DC004C1957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88BDC332D8EF1DC004C1957;
+			remoteInfo = "Recipe Generator using Gemini 2.0 Flash";
+		};
+		C88BDC512D8EF1DD004C1957 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88BDC2C2D8EF1DC004C1957 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88BDC332D8EF1DC004C1957;
+			remoteInfo = "Recipe Generator using Gemini 2.0 Flash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88BDC342D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Generator using Gemini 2.0 Flash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88BDC462D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe Generator using Gemini 2.0 FlashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88BDC502D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe Generator using Gemini 2.0 FlashUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C88BDC362D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Recipe Generator using Gemini 2.0 Flash";
+			sourceTree = "<group>";
+		};
+		C88BDC492D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Recipe Generator using Gemini 2.0 FlashTests";
+			sourceTree = "<group>";
+		};
+		C88BDC532D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Recipe Generator using Gemini 2.0 FlashUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88BDC312D8EF1DC004C1957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC432D8EF1DD004C1957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC4D2D8EF1DD004C1957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88BDC2B2D8EF1DC004C1957 = {
+			isa = PBXGroup;
+			children = (
+				C88BDC362D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */,
+				C88BDC492D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests */,
+				C88BDC532D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests */,
+				C88BDC352D8EF1DC004C1957 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88BDC352D8EF1DC004C1957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88BDC342D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash.app */,
+				C88BDC462D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests.xctest */,
+				C88BDC502D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88BDC332D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88BDC5A2D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 Flash" */;
+			buildPhases = (
+				C88BDC302D8EF1DC004C1957 /* Sources */,
+				C88BDC312D8EF1DC004C1957 /* Frameworks */,
+				C88BDC322D8EF1DC004C1957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C88BDC362D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */,
+			);
+			name = "Recipe Generator using Gemini 2.0 Flash";
+			packageProductDependencies = (
+			);
+			productName = "Recipe Generator using Gemini 2.0 Flash";
+			productReference = C88BDC342D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88BDC452D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88BDC5D2D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 FlashTests" */;
+			buildPhases = (
+				C88BDC422D8EF1DD004C1957 /* Sources */,
+				C88BDC432D8EF1DD004C1957 /* Frameworks */,
+				C88BDC442D8EF1DD004C1957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88BDC482D8EF1DD004C1957 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C88BDC492D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests */,
+			);
+			name = "Recipe Generator using Gemini 2.0 FlashTests";
+			packageProductDependencies = (
+			);
+			productName = "Recipe Generator using Gemini 2.0 FlashTests";
+			productReference = C88BDC462D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C88BDC4F2D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88BDC602D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 FlashUITests" */;
+			buildPhases = (
+				C88BDC4C2D8EF1DD004C1957 /* Sources */,
+				C88BDC4D2D8EF1DD004C1957 /* Frameworks */,
+				C88BDC4E2D8EF1DD004C1957 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88BDC522D8EF1DD004C1957 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C88BDC532D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests */,
+			);
+			name = "Recipe Generator using Gemini 2.0 FlashUITests";
+			packageProductDependencies = (
+			);
+			productName = "Recipe Generator using Gemini 2.0 FlashUITests";
+			productReference = C88BDC502D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88BDC2C2D8EF1DC004C1957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C88BDC332D8EF1DC004C1957 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C88BDC452D8EF1DD004C1957 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C88BDC332D8EF1DC004C1957;
+					};
+					C88BDC4F2D8EF1DD004C1957 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C88BDC332D8EF1DC004C1957;
+					};
+				};
+			};
+			buildConfigurationList = C88BDC2F2D8EF1DC004C1957 /* Build configuration list for PBXProject "Recipe Generator using Gemini 2.0 Flash" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88BDC2B2D8EF1DC004C1957;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C88BDC352D8EF1DC004C1957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88BDC332D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */,
+				C88BDC452D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashTests */,
+				C88BDC4F2D8EF1DD004C1957 /* Recipe Generator using Gemini 2.0 FlashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88BDC322D8EF1DC004C1957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC442D8EF1DD004C1957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC4E2D8EF1DD004C1957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88BDC302D8EF1DC004C1957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC422D8EF1DD004C1957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BDC4C2D8EF1DD004C1957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88BDC482D8EF1DD004C1957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88BDC332D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */;
+			targetProxy = C88BDC472D8EF1DD004C1957 /* PBXContainerItemProxy */;
+		};
+		C88BDC522D8EF1DD004C1957 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88BDC332D8EF1DC004C1957 /* Recipe Generator using Gemini 2.0 Flash */;
+			targetProxy = C88BDC512D8EF1DD004C1957 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C88BDC582D8EF1DD004C1957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88BDC592D8EF1DD004C1957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88BDC5B2D8EF1DD004C1957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recipe Generator using Gemini 2.0 Flash/Preview Content\"";
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-Flash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88BDC5C2D8EF1DD004C1957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Recipe Generator using Gemini 2.0 Flash/Preview Content\"";
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-Flash";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88BDC5E2D8EF1DD004C1957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-FlashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipe Generator using Gemini 2.0 Flash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipe Generator using Gemini 2.0 Flash";
+			};
+			name = Debug;
+		};
+		C88BDC5F2D8EF1DD004C1957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-FlashTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Recipe Generator using Gemini 2.0 Flash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Recipe Generator using Gemini 2.0 Flash";
+			};
+			name = Release;
+		};
+		C88BDC612D8EF1DD004C1957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-FlashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recipe Generator using Gemini 2.0 Flash";
+			};
+			name = Debug;
+		};
+		C88BDC622D8EF1DD004C1957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGL2MZH35C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vineeth.Recipe-Generator-using-Gemini-2-0-FlashUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Recipe Generator using Gemini 2.0 Flash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88BDC2F2D8EF1DC004C1957 /* Build configuration list for PBXProject "Recipe Generator using Gemini 2.0 Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BDC582D8EF1DD004C1957 /* Debug */,
+				C88BDC592D8EF1DD004C1957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88BDC5A2D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 Flash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BDC5B2D8EF1DD004C1957 /* Debug */,
+				C88BDC5C2D8EF1DD004C1957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88BDC5D2D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 FlashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BDC5E2D8EF1DD004C1957 /* Debug */,
+				C88BDC5F2D8EF1DD004C1957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88BDC602D8EF1DD004C1957 /* Build configuration list for PBXNativeTarget "Recipe Generator using Gemini 2.0 FlashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BDC612D8EF1DD004C1957 /* Debug */,
+				C88BDC622D8EF1DD004C1957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C88BDC2C2D8EF1DC004C1957 /* Project object */;
+}
