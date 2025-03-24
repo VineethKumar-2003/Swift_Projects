@@ -26,6 +26,7 @@ A **console-based banking application** where users can create accounts, check t
 Recipe Remixer is a smart recipe generator that leverages Google Gemini 2.0 Flash to provide AI-powered recipe suggestions based on user-inputted ingredients. This app aims to help users create delicious meals with what they have at like at that moment, reducing food waste and encouraging creativity in the kitchen.
 
 - **Features**:
+
       - 🧠 AI-Powered Recipe Generation – Uses Gemini 2.0 Flash for intelligent recipe suggestions.
 
       - 🍽️ Ingredient-Based Suggestions – Enter available ingredients and get relevant recipes.
@@ -49,6 +50,7 @@ Recipe Remixer is a smart recipe generator that leverages Google Gemini 2.0 Flas
 Swift Alert is a safety-focused iOS application designed to provide emergency actions, safety tips, and helpline contacts. Built using SwiftUI, this app integrates voice activation, location tracking, and drop detection to enhance user security. The app is specifically designed for situations where immediate assistance is required, ensuring a minimalist yet highly functional UI for ease of use.
 
 - **Features**:
+
       - 🔊 Voice Activation – Activate emergency mode using voice commands.
 
       - 📍 Location Tracking – Sends real-time location updates to emergency contacts.
