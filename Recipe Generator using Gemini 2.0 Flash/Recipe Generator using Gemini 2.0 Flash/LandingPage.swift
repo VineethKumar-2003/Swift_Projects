@@ -7,7 +7,10 @@
 
 import SwiftUI
 
+import Speech
+
 struct LandingPage: View {
+    @StateObject private var speechRecognizer = SpeechRecognizer()
     @State private var preferredCuisine: String = ""
     @State private var levelOfDifficulty: String = "Easy"
     @State private var preparationTime: String = ""
@@ -41,7 +44,9 @@ struct LandingPage: View {
                         .multilineTextAlignment(.center)
                     
                     VStack(alignment: .leading, spacing: 15) {
-                        CustomTextField(title: "Preferred Cuisine", text: $preferredCuisine, placeholder: "Enter your favorite cuisine...")
+                        CustomTextField(title: "Preferred Cuisine", text: $preferredCuisine, placeholder: "Enter your favorite cuisine...", onMicButtonTapped: {
+                            speechRecognizer.startRecording()
+                        })
                         CustomPicker(title: "Level of Difficulty", selection: $levelOfDifficulty, options: difficultyLevels)
                         CustomTextField(title: "Preparation Time", text: $preparationTime, placeholder: "e.g., 10 - 20 minutes")
                         CustomPicker(title: "Meal Type", selection: $mealType, options: mealTypes)
@@ -97,6 +102,12 @@ struct LandingPage: View {
                                     }
                                     .padding()
                                 }
+                .onAppear(perform: {
+                    speechRecognizer.requestAuthorization()
+                })
+                .onChange(of: speechRecognizer.transcribedText) { newValue in
+                    preferredCuisine = newValue
+                }
         }
     }
     
@@ -104,25 +115,36 @@ struct LandingPage: View {
         var title: String
         @Binding var text: String
         var placeholder: String
-        
+        var onMicButtonTapped: (() -> Void)?
+
         var body: some View {
             VStack(alignment: .leading, spacing: 5) {
                 Text(title)
                     .font(.headline)
                     .foregroundStyle(.white)
                     .padding(.leading, 5)
-                
-                ZStack(alignment: .leading) {
-                    if text.isEmpty {
-                        Text(placeholder)
-                            .foregroundStyle(.gray)
-                            .padding(.leading, 12)
+
+                HStack {
+                    ZStack(alignment: .leading) {
+                        if text.isEmpty {
+                            Text(placeholder)
+                                .foregroundStyle(.gray)
+                                .padding(.leading, 12)
+                        }
+
+                        TextField("", text: $text)
+                            .foregroundStyle(.white)
+                            .padding()
+                            .background(RoundedRectangle(cornerRadius: 8).stroke(Color.gray, lineWidth: 1))
                     }
-                    
-                    TextField("", text: $text)
-                        .foregroundStyle(.white)
-                        .padding()
-                        .background(RoundedRectangle(cornerRadius: 8).stroke(Color.gray, lineWidth: 1))
+
+                    if let onMicButtonTapped = onMicButtonTapped {
+                        Button(action: onMicButtonTapped) {
+                            Image(systemName: "mic.fill")
+                                .foregroundColor(.white)
+                                .padding()
+                        }
+                    }
                 }
                 .padding(5)
             }
